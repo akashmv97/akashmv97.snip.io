@@ -1,0 +1,17 @@
+<svg width="400" height="47" viewBox="0 0 400 47" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="path-1-outside-1_8004_19684" maskUnits="userSpaceOnUse" x="6" y="22.9609" width="388" height="25" fill="black">
+<rect fill="white" x="6" y="22.9609" width="388" height="25"/>
+<path d="M7 26.9609C7 25.3041 8.34315 23.9609 10 23.9609H390C391.657 23.9609 393 25.3041 393 26.9609V47.0002H7V26.9609Z"/>
+</mask>
+<path d="M6 26.9609C6 24.7518 7.79086 22.9609 10 22.9609H390C392.209 22.9609 394 24.7518 394 26.9609H392C392 25.8564 391.105 24.9609 390 24.9609H10C8.89543 24.9609 8 25.8564 8 26.9609H6ZM393 47.0002H7H393ZM6 47.0002V26.9609C6 24.7518 7.79086 22.9609 10 22.9609V24.9609C8.89543 24.9609 8 25.8564 8 26.9609V47.0002H6ZM390 22.9609C392.209 22.9609 394 24.7518 394 26.9609V47.0002H392V26.9609C392 25.8564 391.105 24.9609 390 24.9609V22.9609Z" fill="white" mask="url(#path-1-outside-1_8004_19684)"/>
+<rect x="200" width="33" height="37.7843" fill="url(#pattern0_8004_19684)"/>
+<ellipse cx="5.73216" cy="5.90106" rx="5.73216" ry="5.90106" transform="matrix(-0.00319525 -0.999995 -0.999995 0.0030149 11.8398 46.4844)" fill="#E1261C"/>
+<ellipse cx="5.73216" cy="5.90106" rx="5.73216" ry="5.90106" transform="matrix(-0.0034265 -0.999994 -0.999996 0.00281143 399.84 46.4844)" fill="#E1261C"/>
+<ellipse cx="5.73216" cy="5.90106" rx="5.73216" ry="5.90106" transform="matrix(-0.00319525 -0.999995 -0.999995 0.0030149 206.328 46.4844)" fill="#E1261C"/>
+<defs>
+<pattern id="pattern0_8004_19684" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_8004_19684" transform="matrix(0.0165939 0 0 0.0144928 0.0436677 0)"/>
+</pattern>
+<image id="image0_8004_19684" width="55" height="69" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAABFCAYAAADuMX6MAAAABHNCSVQICAgIfAhkiAAAAX5JREFUaEPtmtFtwkAQRLkOQgcpgVQQSkgHgQpSAqQDOoBUEDpAVIBTQioIqcCZtQxCBmX4nFvNSSuDWEv75p0PPiijZKtt2yWQFqj3koxtZLhajdqczQkm4G0pKOWukWzurpgEm7Kb2yDzV9Q848+vH4A9oMap4LAl14Caob5KKZMUcICaAugN9YL6RU0B11A43PgseG7ESJN++wVYVKwzWLy5ghukIMp1NVZAraJg7Hj69AwHqEjiE/U4uHUvSthgrgBpALS9NWMH14Ptes3fuC5R28sURAH/HasMwD4ANKsR5KY5wMVejZMmFVh3oADugGs8b09xfGaxdoJruxdYmcAMV7PNeOa8LWs0aHM1WvNpWas1m7M50QT8VSAqho5lczQi0QabExVDx7I5GpFog82JiqFj2RyNSLTB5kTF0LFsjkYk2mBzomLoWDZHIxJtsDlRMXQsm6MRiTbYnKgYOpbN0YhEG2xOVAwdy+ZoRKINNicqho6V7p96l8R/upkoHsWSjH8AAAAASUVORK5CYII="/>
+</defs>
+</svg>

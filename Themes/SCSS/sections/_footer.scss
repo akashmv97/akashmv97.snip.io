@@ -1,0 +1,66 @@
+footer{
+    background-color: $black;
+    .footer-outer{
+        .footer-inner{
+            padding: 6.063rem 0; //97px;
+            padding-bottom: 4rem !important;
+            .main-heading{
+                h2{
+                    color: $white;
+                    font-size: $heading-sm !important;
+                    font-weight: $font-weight-normal !important;
+                }
+                p{
+                    color: $white;
+                    line-height: 1.875rem !important; //30px
+                    a{
+                        font-size: $subheading-lg !important;
+                        font-weight: $font-weight-normal !important;
+                        &.download-btn{
+                            color: $primary !important; 
+                        }
+                    }
+                }
+            }
+            .barcode-wrap{
+                @include flex ( flex, center, center);
+                gap: 1.5rem;
+                @include flex-wraping(wrap);
+                @include media-breakpoint-down(sm-lg){
+                    flex-direction: column ;
+                }
+                .barcode-inner{
+                    @include flex ( flex, center, normal);
+                    gap: 1rem;
+                    flex-direction: column;
+                    a{
+                        
+                    }
+                }
+                .divider{
+                    width: 1px;
+                    height: 14.688rem; //235px
+                    background-color: $white;
+                    @include media-breakpoint-down(sm-lg){
+                        display: none;
+                    }
+                }
+            }
+        }
+        .footer-sub-inner{
+            padding: 2rem 0;
+            .social-media-btn{
+                @include flex(flex, center, center);
+                gap: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            .copyright-text{
+                small{
+                    text-align: center;
+                    display: block;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

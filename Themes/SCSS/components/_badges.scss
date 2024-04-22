@@ -1,0 +1,7 @@
+.badge{
+    @include padding(.5rem, .75rem, .5rem, .75rem); //8px 12px//
+    @include curve(.875rem); //14px//
+    font-size: $small !important;
+    font-weight: $font-weight-normal !important;
+    min-width: 5.563rem; //89px//
+}

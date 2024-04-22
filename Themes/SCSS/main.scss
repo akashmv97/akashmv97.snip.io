@@ -1,0 +1,42 @@
+//Theme Changing
+
+// main variables
+@import "../scss/bootstrap_5.0.2/functions";
+@import "../scss/variables";
+
+// bootstrap
+
+@import "../scss/bootstrap_5.0.2/bootstrap";
+
+
+// mixins
+@import "../scss/mixins/mixins";
+
+// icons
+@import "../scss/mixins/icons";
+@import "../scss/components/icons";
+
+// Seperate Mixins
+
+@import "../scss/mixins/button";
+@import "../scss/mixins/typography";
+@import "../scss/mixins/grid";
+
+
+// components
+
+@import "../scss/components/buttons";
+@import "../scss/components/typography";
+@import "../scss/components/grid";
+@import "../scss/components/badges";
+@import "../SCSS/components/slicktheme";
+@import "../SCSS/components/slider";
+
+
+// sections
+@import "../SCSS/sections/base";
+@import "../SCSS/sections/container";
+@import "../SCSS/sections/navbar";
+@import "../SCSS/sections/Home";
+@import "../SCSS/sections/banners";
+@import "../SCSS/sections/footer";

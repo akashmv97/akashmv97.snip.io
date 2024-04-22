@@ -1,0 +1,60 @@
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.banners-container{
+    scale: 1;
+}
+.banner-1{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem !important;
+    .sub-image{
+        position: absolute;
+        z-index: -1;
+    }
+    h2{
+        font-size: $heading-md !important;
+        color: $white;
+        font-weight: $font-weight-bold !important;
+        max-width: 37.5rem; //600px
+        text-align: center;
+    }
+}
+
+.secondary-banner-container{
+    .item{
+        text-align: center;
+        @include padding(4.625rem, 0, 4.625rem, 0); //74px//
+        &:nth-child(odd){
+            background-color: $green-shade;
+        }
+        &:nth-child(even){
+            background-color: $light-blue;
+        }
+        .main-heading{
+            margin-bottom: 3.5rem !important;
+            h2,p{
+                color: $white !important;
+            }
+        }
+        .image-wrap{
+            img{
+                max-height: 29.375rem; //470px//
+                width: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+}

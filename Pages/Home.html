@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snipback</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/Public/css/main.min.css">
+
+    <!-- slider -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet"/>
+ 
+     <!-- Gsap -->
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+     <script>
+        ScrollTrigger.refresh(); 
+    </script>
+
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Navbar -->
+        <header>
+        <div class="header-wrap-inner">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="/Public/images/logo-large.png" alt="snipback-logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Film</a>
+                        </li>
+                    </ul>
+                    <ul class="buttons">
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary sm" href="#" >Demo</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link btn btn-white sm" href="#">Login</a>
+                            </li>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
+        </div>
+        </header>
+
+        <!-- Hero banner -->
+
+        <!-- first banner wipe-item -->
+            <section class="hero-banner" >
+                <div class="hero-banner-full-wrap" id="slider">
+                    <div class="hero-banner-outer slide-show"  id="item1">
+                        <div class="container">
+                            <div class="slider" >
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/banner-img1.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Film <span class="marked">Amplified</span></h1>
+                                                <p>Where filming takes on a <span class="marked">NEW <br>LEVEL</span> of Dynamic Action.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/banner-img2.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Film <span class="marked">Amplified</span></h1>
+                                                <p>Where filming takes on a <span class="marked">NEW <br>LEVEL</span> of Dynamic Action.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/base.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Film <span class="marked">Amplified</span></h1>
+                                                <p>Where filming takes on a <span class="marked">NEW <br>LEVEL</span> of Dynamic Action.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/banner-img3.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Film <span class="marked">Amplified</span></h1>
+                                                <p>Where filming takes on a <span class="marked">NEW <br>LEVEL</span> of Dynamic Action.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/baseball-new.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Film <span class="marked">Amplified</span></h1>
+                                                <p>Where filming takes on a <span class="marked">NEW <br>LEVEL</span> of Dynamic Action.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/pic11.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Film <span class="marked">Amplified</span></h1>
+                                                <p>Where filming takes on a <span class="marked">NEW <br>LEVEL</span> of Dynamic Action.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/pic10.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Film <span class="marked">Amplified</span></h1>
+                                                <p>Where filming takes on a <span class="marked">NEW <br>LEVEL</span> of Dynamic Action.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/singlebanner.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Film <span class="marked">Amplified</span></h1>
+                                                <p>Where filming takes on a <span class="marked">NEW <br>LEVEL</span> of Dynamic Action.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/music.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Beyond <span class="marked">Sports</span></h1>
+                                                <p>Theater, Orchestra, Classrooms,<br>
+                                                    Graduation, Concerts, Lectures,<br>
+                                                    Training, Oversight, and much more.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/Graduation.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Beyond <span class="marked">Sports</span></h1>
+                                                <p>Theater, Orchestra, Classrooms,<br>
+                                                    Graduation, Concerts, Lectures,<br>
+                                                    Training, Oversight, and much more.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hero-banner-inner item">
+                                    <div class="row align-items-center gx-5 gy-4">
+                                        <div class="col-md-6">
+                                            <div class="banner-image-wrap">
+                                                <img src="/Public/images/Classroom.png" alt="banner-image">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="banner-content">
+                                                <h1>Beyond <span class="marked">Sports</span></h1>
+                                                <p>Theater, Orchestra, Classrooms,<br>
+                                                    Graduation, Concerts, Lectures,<br>
+                                                    Training, Oversight, and much more.</p>
+                                                <div class="btn-wrap">
+                                                    <button class="btn btn-outline-white md">Explore it</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Eco system -->
+        <section class="eco-system" id="grow">
+            <div class="eco-system-outer"  >
+                <div class="container">
+                    <div class="eco-system-inner">
+                        <div class="main-heading" id="reveal-head">
+                            <h2>The Ultimate End-to-End <br> Film EcoSystem</h2>
+                        </div>
+                        <div class="content" id="content">
+                            <div class="row gy-4 justify-content-center">
+                                <!-- first column -->
+                                <div class="col-xl-2 col-lg-2 col-md-2 item-column">
+                                    <div class="item-inner">
+                                        <div class="icon-wrap dark" id="icon-wrap">
+                                            <i class="icon icon-capture xxl" id="icon"></i>
+                                        </div>
+                                        <div class="title-wrap">
+                                            <h4>Capture</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Second column -->
+                                <div class="col-xl-2 col-lg-2 col-md-2 item-column">
+                                    <div class="item-inner reverse">
+                                        <div class="icon-wrap red" id="icon-wrap">
+                                            <i class="icon icon-benefit xxl" id="icon"></i>
+                                        </div>
+                                        <div class="title-wrap">
+                                            <h4>Benefit</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Third column -->
+                                <div class="col-xl-2 col-lg-2 col-md-2 item-column">
+                                    <div class="item-inner">
+                                        <div class="icon-wrap dark" id="icon-wrap">
+                                            <i class="icon icon-distribute xxl" id="icon"></i>
+                                        </div>
+                                        <div class="title-wrap">
+                                            <h4>Distribute</h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- View more btn column -->
+                                <div class="col-lg-12">
+                                    <div class="more-btn-wrap">
+                                        <a href="" class="btn btn-outline-dark sm"><i class="icon icon-plus"></i> Learn about the all powerful snip</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Film capture -->
+        <section class="film-capture gray-bg " id="grow2">
+            <div class="film-capture-outer">
+                <div class="container">
+                    <div class="film-capture-inner">
+                        <div class="main-heading" id="reveal-head">
+                            <h2>Film Capture Powerful - Adaptable - Easy</h2>
+                            <p>4K / 60 fps / AI / Wi-Fi 6E / 6-Core / 5x Optical / 15x Digital Auto View Sync / <br> Auto Upload / Long Lasting Battery Online or Offline</p>
+                        </div>
+                        <div class="content">
+                            <div class="row gy-4">
+                                <!-- first column -->
+                                <div class="col-xl-4 col-lg-4 col-md-4 column-bordered">
+                                    <div class="item-inner">
+                                        <div class="icon-wrap no-bg" id="captured-icon">
+                                            <img src="/Public/images/cam-1.png" alt="image" id="captured-image">
+                                        </div>
+                                        <div class="title-wrap">
+                                            <h5>Permanently Mounted Facility cameras</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Second column -->
+                                <div class="col-xl-4 col-lg-4 col-md-4 column-bordered">
+                                    <div class="item-inner no-bg">
+                                        <div class="icon-wrap no-bg" id="captured-icon">
+                                            <img src="/Public/images/cam-2.png" alt="image" id="captured-image">
+                                        </div>
+                                        <div class="title-wrap">
+                                            <h5>Roaming Crowd Cams</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Third column -->
+                                <div class="col-xl-4 col-lg-4 col-md-4 column-bordered">
+                                    <div class="item-inner">
+                                        <div class="icon-wrap no-bg" id="captured-icon">
+                                            <img src="/Public/images/cam-3.png" alt="image" id="captured-image">
+                                        </div>
+                                        <div class="title-wrap">
+                                            <h5>Floating Cameras Tripods, Clamps, Magnet Mounts</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Remote Control -->
+        <section class="remote-control" id="grow3">
+        <div class="remote-control-outer">
+            <div class="container">
+                <div class="remote-control-inner">
+                    <div class="main-heading" id="reveal-head">
+                            <h2>Remote Control</h2>
+                            <p>IOS / Android</p>
+                    </div>
+                    <div class="content">
+                        <div class="remote-control-image-wrap">
+                            <img src="/Public/images/mobile.svg" alt="mobile-image" id="mobile-image">
+                        </div>
+                        <div class="more-btn-wrap">
+                            <a href="" class="btn btn-outline-dark sm"><i class="icon icon-plus"></i> Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Live Tagaging -->
+        <section class="live-tagging bg-dark" id="live-tagging">
+        <div class="live-tagging-outer">
+            <div class="container">
+                <div class="live-tagging-inner">
+                    <div class="main-heading" id="reveal-head">
+                            <h2>Live Tagging / Coding</h2>
+                            <p>Bluetooth Clicker, Smart Watch, iPad, Android Tablet, Smart Phone</p>
+                    </div>
+                    <div class="content">
+                        <div class="row gy-4">
+                            <div class="col-md-9">
+                                <div class="live-tagging-main-image-wrap">
+                                    <img src="/Public/images/live-tagging.svg" alt="mobile-image" id="live-tagging-image">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row gy-4">
+                                    <div class="col-lg-12">
+                                        <div class="sub-image-full-wrap">
+                                            <div class="sub-image">
+                                                <img src="/Public/images/bluetooth-clicker.png" alt="sub-image" id="live-tagging-image">
+                                            </div>
+                                            <p class="title">Bluetooth Clicker</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="sub-image-full-wrap">
+                                            <div class="sub-image">
+                                                <img src="/Public/images/smart-watch.png" alt="sub-image" id="live-tagging-image">
+                                            </div>
+                                            <p class="title">Smart Watch</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="more-btn-wrap">
+                                    <a href="" class="btn btn-outline-white sm"><i class="icon icon-plus-white"></i> Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Film review -->
+        <section class="film-review" id="grow4">
+            <div class="film-capture-outer">
+                <div class="container">
+                    <div class="">
+                        <div class="film-capture-inner" >
+                            <div class="row gx-5 gy-4 align-items-center">
+                                <div class="col-lg-7">
+                                    <div class="film-review-slider">
+                                        <img src="/Public/images/pages-1.png" alt="slider-image" class="item">
+                                        <img src="/Public/images/pages-2.png" alt="slider-image" class="item">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="main-heading left-aligned ">
+                                        <h2>Need More?<br> Power Up with iPad</h2>
+                                        <p>Enhanced Football Tagging</p>
+                                        <a href="" class="btn btn-outline-dark sm"><i class="icon icon-plus"></i> Learn More About Tag Management</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Film review video-->
+        <section class="video-wrap" id="grow5">
+            <div class="video-wrap-outer">
+                <div class="container">
+                    <div class="main-heading" id="reveal-head">
+                        <h2 id="typewriter-text">Powerful Film Review</h2>
+                        <p>Multi-View, Side by Side, Stats Collections Whiteboarding, Share</p>
+                    </div>
+                    <video playsinline="true" webkit-playsinline="true" preload="auto" muted="muted" class="full-video-wrap">
+                        <source src="/Public/videos/v-film.mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Film review -->
+        <section class="enhanced-security gray-bg" id="grow6">
+            <div class="enhanced-security-outer">
+                <div class="container">
+                    <div class="enhanced-security-inner">
+                        <div class="main-heading" id="reveal-head">
+                            <h2>Enhanced Security and Control</h2>
+                            <p>Encryption, Restrict Re-Sharing Never Selling your data</p>
+                        </div>
+                        <div class="row gy-4 align-items-center">
+                            <div class="col-lg-6">
+                                <div class="red-cirle-image-wrap">
+                                    <div class="image-wrap">
+                                        <img id="red-circle" src="/Public/images/red-circle-bg.svg" alt="red-circle-image">
+                                    </div>
+                                    <img class="key-hole-image" src="/Public/images/keyhole.svg" alt="keyhole-image">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="enhanced-security-content">
+                                    <h3>Multi Platform</h3>
+                                    <div class="button-wrap">
+                                        <a href="" class="btn btn-gray">IOS</a>
+                                        <a href="" class="btn btn-dark-green">Android</a>
+                                        <a href="" class="btn btn-blue">Web</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!-- Snipback sideline -->
+        <section class="snipback-sideline" id="grow7">
+            <div class="snipback-sideline-outer">
+                <div class="container">
+                    <div class="snipback-sideline-inner">
+                        <div class="main-heading" id="reveal-head">
+                            <h2>Snipback Sideline</h2>
+                            <p>Instant Sideline Review Combined with Live Snipping / Coding. Unlimited Number of Views.</p>
+                        </div>
+                        <div class="content">
+                            <div class="item-outer first">
+                                <div class="sub-heading">
+                                    <h4>Capture & Stream</h4>
+                                </div>
+                                <div class="row gy-4">
+                                    <!-- first column -->
+                                    <div class="col-xl-4 col-lg-4 col-md-4 column-bordered">
+                                        <div class="item-inner">
+                                            <div class="icon-wrap no-bg">
+                                                <img src="/Public/images/cam-1.png" alt="image">
+                                            </div>
+                                            <div class="title-wrap">
+                                                <h5>Permanently Mounted Facility cameras</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Second column -->
+                                    <div class="col-xl-4 col-lg-4 col-md-4 column-bordered">
+                                        <div class="item-inner no-bg">
+                                            <div class="icon-wrap no-bg">
+                                                <img src="/Public/images/cam-2.png" alt="image">
+                                            </div>
+                                            <div class="title-wrap">
+                                                <h5>Roaming Crowd Cams</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Third column -->
+                                    <div class="col-xl-4 col-lg-4 col-md-4 column-bordered">
+                                        <div class="item-inner">
+                                            <div class="icon-wrap no-bg">
+                                                <img src="/Public/images/cam-3.png" alt="image">
+                                            </div>
+                                            <div class="title-wrap">
+                                                <h5>Floating Cameras Tripods, Clamps, Magnet Mounts</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row gy-4 align-items-center">
+                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                        <div class="text-wrap">
+                                            <h5 class="head">Remote Control Live Snipping / Coding</h5>
+                                            <p class="sub-text">via Mobile, Smartwatch & Bluetooth Clicker</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                        <div class="divider-img">
+                                            <img src="/Public/images/path-divider.svg" alt="divider">
+                                        </div>
+                                    </div>
+                                        
+                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                        <div class="text-wrap">
+                                            <h5 class="head">Online & Offline Mode</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-outer second">
+                                <div class="sub-heading">
+                                    <h4>Playback & Whiteboard</h4>
+                                </div>
+                                <div class="row gy-4 align-items-center">
+                                    <!-- first column -->
+                                    <div class="col-xl-4 col-lg-4 col-md-4 ">
+                                        <div class="item-inner">
+                                            <div class="icon-wrap no-bg">
+                                                <img src="/Public/images/tablet.png" alt="image">
+                                            </div>
+                                            <div class="title-wrap">
+                                                <h5>Tablet</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Second column -->
+                                    <div class="col-xl-4 col-lg-4 col-md-4">
+                                        <div class="item-inner no-bg">
+                                            <div class="icon-wrap no-bg">
+                                                <img src="/Public/images/web.png" alt="image">
+                                            </div>
+                                            <div class="title-wrap">
+                                                <h5>Web</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--Third column -->
+                                    <div class="col-xl-4 col-lg-4 col-md-4 column-bordered">
+                                        <div class="item-inner">
+                                            <div class="icon-wrap no-bg">
+                                                <img src="/Public/images/mobile.png" alt="image">
+                                            </div>
+                                            <div class="title-wrap">
+                                                <h5>Mobile</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- snipback-sideline video -->
+                <div class="video-full-wrap" id="snipback-sideine-video">
+                    <video playsinline="true" webkit-playsinline="true" preload="auto" muted="muted" class="video-background">
+                        <source src="/Public/videos/v-Advanced.mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- snipback sideline extra -->
+        <section class="snipback-sideline-extra">
+            <!-- snipback sideline extras -->
+            <div class="snip-back-slide-extra" id="snipback-extra">
+                <div class="container">
+                    <div class="snip-back-slide-extra-inner">
+                        <div class="row gy-4 gx-5">
+                            <div class="col-lg-4">
+                                <div class="items">
+                                    <div class="icons">
+                                        <img class="icon-img" src="/Public/images/enhanced.svg" alt="icon">
+                                    </div>
+                                    <div class="text-wrap">
+                                        <h2>Enhanced Film Exchange</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="items">
+                                    <div class="icons">
+                                        <img class="icon-img" src="/Public/images/gudl.svg" alt="icon">
+                                        <img class="icon-img" src="/Public/images/dropbox.svg" alt="icon">
+                                        <img class="icon-img" src="/Public/images/google_drive.svg" alt="icon">
+                                    </div>
+                                    <div class="text-wrap">
+                                        <h2>Easily Receive Film by Email2Upload via Hudl, Dropbox, and Google Drive link</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="items">
+                                    <div class="icons">
+                                        <img class="icon-img" src="/Public/images/share.svg" alt="icon">
+                                        <img class="icon-img" src="/Public/images/link.svg" alt="icon">
+                                    </div>
+                                    <div class="text-wrap">
+                                        <h2>Easily Share via Pool Share or Direct Link</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- multicam-capabilities -->
+        <section class="multicam-capabilties" id="multicam">
+            <div class="multicam-capabilties-outer">
+                <div class="container">
+                    <div class="multicam-capabilties-inner">
+                        <div class="main-heading" id="reveal-head">
+                            <h2>Flexible Multi-Cam Capabilities</h2>
+                            <p>Auto-sync of All Views. “Floating” Wire-Free Cameras, Allow Placement Anywhere.</p>
+                        </div>
+                        <div class="multicam-content">
+                            <div class="cards-wrap">
+                                <div class="row gy-4">
+                                    <div class="col-lg-3">
+                                        <div class="card" id="card">
+                                            <img src="/Public/images/sec12-img1.svg" alt="image" class="thumb" id="thumb">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card" id="card">
+                                            <img src="/Public/images/sec12-img2.svg" alt="image" class="thumb" id="thumb">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="card" id="card">
+                                            <img src="/Public/images/sec12-img3.svg" alt="image" class="thumb" id="thumb">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3" id="card">
+                                        <div class="card">
+                                            <img src="/Public/images/sec12-img4.svg" alt="image" class="thumb" id="thumb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- case study -->
+        <section class="case-study" id="case-study">
+            <div class="case-study-outer">
+                <div class="container">
+                    <div class="case-study-inner">
+                        <div class="row gy-4">
+                            <div class="col-md-3 case-study-col">
+                                <div class="main-heading left-aligned">
+                                    <h2><span class="marked">CASE STUDY</span><br> 6 Camera Mini Camp</h2>
+                                    <p>See every angle for precise assessment and instruction.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 case-study-col">
+                                <div class="case-study-demo" id="case-study-demo">
+                                    <img class="main-image" src="/Public/images/multicam-main-img.png" alt="image">
+                                    <img class="case-study-path" src="/Public/images/casestudy-path.svg" alt="image">
+                                    <div class="sub-images-wrap">
+                                        <img src="/Public/images/case-1.png" alt="sub-image" class="sub-image">
+                                        <img src="/Public/images/case-2.png" alt="sub-image" class="sub-image">
+                                        <img src="/Public/images/case-3.png" alt="sub-image" class="sub-image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 case-study-col">
+                                <div class="main-heading left-aligned">
+                                    <h2>In Action</h2>
+                                    <p>Unleash floating Multi- View cameras for precise instruction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- banner one sections -->
+        <div class="banners-container" id="banners-container">
+            <section class="banner-1">
+                <div class="bg" style="background-image: url('/Public/images/cloud-bg.png');"></div>
+                <h2 id="reveal-head">Cloud AI</h2>
+            </section>
+            <section class="banner-1">
+                <div class="bg" style="background-image: url('/Public/images/assist-bg.png');"></div>
+                <img class="sub-image" src="/Public/images/assist-sub.png" alt="image">
+                <h2 id="reveal-head">SnipBack Assist Interactive Stats & Analytics</h2>
+            </section>
+            <section class="banner-1">
+                <div class="bg" style="background-image: url('/Public/images/football.png');"></div>
+                <h2 id="reveal-head">Rich Experience with HD Streaming, Scoreboard Overlays, Multiple Views, Stream Snipping,Pause/Rewind, and Monetization.</h2>
+            </section>
+        </div>
+
+        <!-- Secondary banner-->
+        <section class="secondary-banner-container" id="secondary-banner">
+            <div class="item">
+                <div class="container">
+                    <div class="main-heading" id="reveal-head">
+                        <h2>Team Chat &<br> Video Rooms Powered by NGauge</h2>
+                        <p>Exclusive Features to Streamline Team Meetings and Virtual Events</p>
+                    </div>
+                    <div class="image-wrap">
+                        <img src="/Public/images/secondary-banner-1.png" alt="image">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="main-heading" id="reveal-head">
+                        <h2>Fundraise with<br> NGauge Virtual Events</h2>
+                        <p>Exclusive Features to Streamline Team Meetings and Virtual Events</p>
+                    </div>
+                    <div class="image-wrap">
+                        <img src="/Public/images/secondary-banner-2.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <Footer id="footer">
+            <div class="footer-outer">
+                <div class="container">
+                    <div class="footer-inner">
+                        <div class="main-heading" id="reveal-head">
+                            <h2>Scan & Download the App</h2>
+                            <p>Anyone can get started using SnipBack for their events in less than 5 <br>minutes. Just <a href="" class="download-btn">download the App</a> and have a full-fledged event <br>platform on your phone.</p>
+                        </div>
+                        <div class="barcode-wrap">
+                            <!-- IOS -->
+                            <div class="barcode-inner">
+                                <img class="barcode-img" src="/Public/images/ios.png" alt="barcode-image">
+                                <a href=""><img src="/Public/images/appstore.png" alt="appstore-img"></a>
+                            </div>
+                            <!-- divider -->
+                            <div class="divider"></div>
+                            <!-- Android -->
+                            <div class="barcode-inner">
+                                <img class="barcode-img" src="/Public/images/android.png" alt="barcode-image">
+                                <a href=""><img src="/Public/images/google.png" alt="playstore-img"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-sub-inner">
+                        <div class="social-media-btn">
+                            <a href="" target="_blank" title="Facebook"><i class="icon icon-facebook"></i></a>
+                            <a href="" target="_blank" title="Twitter"><i class="icon icon-twitter"></i></a>
+                            <a href="" target="_blank" title="Instagram"><i class="icon icon-instagram"></i></a>
+                            <a href="" target="_blank" title="Linkedin"><i class="icon icon-linkedin"></i></a>
+                            <a href="" target="_blank" title="YouTube"><i class="icon icon-youtube"></i></a>
+                        </div>
+                        <div class="copyright-text">
+                            <small>Copyright © 2024 SnipBack. All rights reserved.</small>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </Footer>
+    </div>
+
+
+    <!-- script -->
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   <!-- slider -->
+   <script src="/Public/js/slick.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- custom js -->
+    <script src="/Public/js/custom.js"></script>
+
+    <!-- locomotive scroll -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script>
+        (function () {
+            const locomotiveScroll = new LocomotiveScroll();
+        })();
+    </script> -->
+
+</body>
+</html>
